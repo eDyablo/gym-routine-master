@@ -18,5 +18,13 @@ VOLUME [ "/var/workspace" ]
 
 WORKDIR /var/workspace
 
-ONBUILD COPY . .
-ONBUILD RUN go build -o grm.exe *.go
+ONBUILD ARG SOURCE_DIR
+
+ONBUILD COPY ${SOURCE_DIR} ${SOURCE_DIR}
+
+ONBUILD ARG BINARY_OUTPUT_PATH
+
+ONBUILD RUN \
+  WORKDIR=$(pwd);\
+  cd ${SOURCE_DIR}\
+  && go build -o ${BINARY_OUTPUT_PATH} *.go
