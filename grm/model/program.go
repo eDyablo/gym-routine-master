@@ -13,14 +13,14 @@ type Program struct {
 
 func (program *Program) Save() error {
   filename := program.Name + ".yaml"
-  file, err := os.Create(filename)
-  if err == nil {
+  if file, err := os.Create(filename); err == nil {
     defer file.Close()
     encoder := yaml.NewEncoder(file)
     encoder.SetIndent(2)
-    err = encoder.Encode(program)
+    return encoder.Encode(program)
+  } else {
+    return err
   }
-  return err
 }
 
 func LoadProgram(name string) *Program {
