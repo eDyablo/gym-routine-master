@@ -1,0 +1,297 @@
+exercises:
+  barbellHipThrust:
+    conventionalName: Barbell Hip Thrust
+  barbellRomanianDeadlift:
+    alternativeNames:
+      - Romanian Deadlift
+      - RDL
+    conventionalName: Barbell Romanian Deadlift
+    links:
+      - link: https://youtu.be/_oyxCn2iSjU?t=95
+  benchPress:
+    conventionalName: Bench Press
+    links:
+      - link: https://youtu.be/vcBig73ojpE?t=134
+  bentOverReverseDumbbellFlye:
+    conventionalName: Bent-Over Reverse Dumbbell Flye
+  bottomHalfBayesianCurl:
+    alternativeNames:
+      - Bayersian Curl
+    conventionalName: Bottom-Half Bayesian Curl
+  bottomHalfDumbbellLatPullover:
+    alternativeNames:
+      - Dumbbell Lat Pullover
+    conventionalName: Bottom-Half Dumbbell Lat Pullover
+  bottomHalfPreacherCurl:
+    alternativeNames:
+      - Preacher Curl
+    conventionalName: Bottom-Half Preacher Curl
+  bottomHalfSpiderCurl:
+    alternativeNames:
+      - Spider Curl
+    conventionalName: Bottom-Half Spider Curl
+  cableCrunch:
+    conventionalName: Cable Crunch
+  cableCurl:
+    conventionalName: Cable Curl
+  cableLatPullover:
+    conventionalName: Cable Lat Pullover
+  cableSeatedRow:
+    conventionalName: Cable Seated Row
+  chinUp:
+    conventionalName: Chin-Up
+  closeGripBarbellInclinePress:
+    conventionalName: Close-Grip Barbell Incline Press
+  closeGripDumbbellInclinePress:
+    conventionalName: Close-Grip Dumbbell Incline Press
+  closeGripMachinePress:
+    conventionalName: Close-Grip Machine Press
+  closeGripPushUp:
+    conventionalName: Close-Grip Push Up
+  crossBodyCableYRaise:
+    conventionalName: Cross-Body Cable Y-Raise
+  deadlift:
+    conventionalName: Deadlift
+  declinePlateWeightedCrunch:
+    conventionalName: Decline Plate-Weighted Crunch
+    links:
+      - link: https://youtu.be/Aos574-Brzw
+  deficitPushUp:
+    conventionalName: Deficit Push Up
+  diamondPushUp:
+    conventionalName: Diamond Push Up
+  dumbbellBSS:
+    conventionalName: Dumbbell Bulgarian Split Squat
+  dumbbellBenchPress:
+    conventionalName: Dumbbell Bench Press
+  dumbbellBenchPressNoLegDrive:
+    alternativeNames:
+      - Dumbbell Bench Press
+    conventionalName: Dumbbell Bench Press (No Leg Drive)
+  dumbbellCurl:
+    conventionalName: Dumbbell Curl
+  dumbbellFlye:
+    conventionalName: Dumbbell Flye
+  dumbbellLateralRaise:
+    conventionalName: Dumbbell Lateral Raise
+  dumbbellRomanianDeadlift:
+    conventionalName: Dumbbell Romanian Deadlift
+  dumbbellSkullCrusher:
+    conventionalName: Dumbbell Skull Crusher
+  dumbbellStepUp:
+    conventionalName: Dumbbell Step-Up
+  ezBarCurl:
+    conventionalName: EZ-Bar Curl
+  gobletSquat:
+    conventionalName: Goblet Squat
+  hackSquat:
+    conventionalName: Hack Squat
+  hyperextension45:
+    conventionalName: 45° Hyperextension
+  inclineChestSupportedDumbbellRow:
+    conventionalName: Incline Chest-Supported Dumbbell Row
+  kneelingModifiedPushUp:
+    conventionalName: Kneeling Modified Push Up
+  krocRow:
+    conventionalName: Kroc Row
+  larsenPress:
+    conventionalName: Larsen Press
+  latPulldown:
+    conventionalName: Lat Pulldown
+  latStaticStretch:
+    conventionalName: Lat Static Stretch
+  legPress:
+    conventionalName: Leg Press
+  legPressToePress:
+    conventionalName: Leg Press Toe Press
+    links:
+      - link: https://youtu.be/VJ_9xii47Sk
+  lyingLegCurl:
+    conventionalName: Lying Leg Curl
+  machineChestPress:
+    conventionalName: Machine Chest Press
+  machineChestPressNoLegDrive:
+    alternativeNames:
+      - Machine Chest Press
+    conventionalName: Machine Chest Press (No Leg Drive)
+  machineCrunch:
+    conventionalName: Machine Crunch
+  machineLateralRaise:
+    conventionalName: Machine Lateral Raise
+  machinePulldown:
+    conventionalName: Machine Pulldown
+  machineShoulderPress:
+    conventionalName: Machine Shoulder Press
+  meadowsRow:
+    conventionalName: Meadows Row
+  n1StyleCrossBodyTricepsExtension:
+    conventionalName: N1 Style Cross-Body Triceps Extension
+  nordicHamCurl:
+    conventionalName: Nordic Ham Curl
+  omniDirectionFacePull:
+    conventionalName: Omni-Direction Face Pull
+  omniGripMachineChestSupportedRow:
+    conventionalName: Omni-Grip Machine Chest-Supported Row
+  oneArmLatPullIn:
+    conventionalName: 1-Arm Lat Pull-In
+  pauseDumbbellBSS:
+    conventionalName: Pause Dumbbell Bulgarian Split Squat
+  pauseHackSquat:
+    conventionalName: Pause Hack Squat
+  pauseSquat:
+    conventionalName: Pause Squat
+    links:
+      - kind: YouTube
+        link: https://youtu.be/1Rd1QgA46hQ
+  pecStaticStretch:
+    conventionalName: Pec Static Stretch
+  pressAround:
+    conventionalName: Press-Around
+  pullUp:
+    conventionalName: Pull-Up
+  reverseCableFlye:
+    conventionalName: Reverse Cable Flye
+  seatedCalfRaise:
+    conventionalName: Seated Calf Raise
+  seatedDumbbellShoulderPress:
+    conventionalName: Seated Dumbbell Shoulder Press
+  seatedLegCurl:
+    conventionalName: Seated Leg Curl
+    links:
+      - link: https://youtu.be/2CMmuH4qJh0
+  singleArmCableTricepsKickback:
+    conventionalName: Single-Arm Cable Triceps Kickback
+  singleArmDumbbellRow:
+    conventionalName: Single-Arm Dumbbell Row
+  singleArmTricepsPressdown:
+    conventionalName: Single-Arm Triceps Pressdown
+  squat:
+    alternativeNames:
+      - Squat
+    conventionalName: Back Squal
+    links:
+      - kind: YouTube
+        link: https://youtu.be/bEv6CCg2BC8?t=147
+  squeezeOnlyTricepsPressdown:
+    conventionalName: Squeeze-Only Triceps Pressdown
+  standingCalfRaise:
+    conventionalName: Standing Calf Raise
+  standingDumbbellArnoldPress:
+    conventionalName: Standing Dumbbell Arnold Press
+  stiffLegDeadlift:
+    conventionalName: Stiff-Leg Deadlift
+  stretchOnlyOverheadTricepsExtension:
+    conventionalName: Stretch-Only Overhead Triceps Extension
+  trapBarDeadlift:
+    conventionalName: Trap Bar Deadlift
+  tricepsPressdown:
+    conventionalName: Triceps Pressdown
+  underhandLatPulldown:
+    conventionalName: Underhand Lat Pulldown
+  walkingLunge:
+    conventionalName: Walking Lunge
+    links:
+      - link: https://youtu.be/Y4Vv2ASsyhs?t=536
+name: Ultimate PPL
+routine:
+  - exercises:
+      - name: squat
+        notes: |
+          Sit back and down, keep your upper back tight to the bar.
+        reps:
+          max: 4
+          min: 2
+        rest:
+          max: 4
+          min: 3
+        rpe:
+          max: 9
+          min: 8
+        sets:
+          - count:
+              max: 4
+              min: 3
+            type: warm-up
+          - count:
+              max: 1
+              min: 1
+            type: working
+    name: |
+      Legs #1
+  - exercises:
+      - name: benchPress
+        reps:
+          max: 5
+          min: 3
+        rest:
+          max: 4
+          min: 3
+        rpe:
+          max: 9
+          min: 8
+        sets:
+          - count:
+              max: 1
+              min: 1
+            type: working
+          - count:
+              max: 4
+              min: 3
+            type: warm-up
+    name: |
+      Push #1
+  - exercises:
+      - name: latPulldown
+        reps:
+          max: 10
+          min: 10
+        rest:
+          max: 3
+          min: 2
+        rpe:
+          max: 0
+          min: 0
+        sets:
+          - count:
+              max: 4
+              min: 4
+            type: feeder
+      - name: latPulldown
+        reps:
+          max: 10
+          min: 10
+        rest:
+          max: 3
+          min: 2
+        rpe:
+          max: 10
+          min: 10
+        sets:
+          - count:
+              max: 1
+              min: 1
+            type: fail
+    name: |
+      Pull #1
+  - exercises:
+      - name: deadlift
+        reps:
+          max: 5
+          min: 5
+        rest:
+          max: 5
+          min: 3
+        rpe:
+          max: 9
+          min: 8
+        sets:
+          - count:
+              max: 4
+              min: 3
+            type: warm-up
+          - count:
+              max: 1
+              min: 1
+            type: working
+    name: |
+      Full Body #1

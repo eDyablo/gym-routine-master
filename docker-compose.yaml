@@ -1,0 +1,7 @@
+services:
+  terminal:
+    build:
+      context: .
+      dockerfile: terminal.Dockerfile
+    volumes:
+      - .:/var/workspace:rw
