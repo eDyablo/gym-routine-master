@@ -248,9 +248,7 @@ routine:
         rest:
           max: 3
           min: 2
-        rpe:
-          max: 0
-          min: 0
+        rpe: 0
         sets:
           - count: 4
             type: feeder
@@ -262,9 +260,7 @@ routine:
         rest:
           max: 3
           min: 2
-        rpe:
-          max: 10
-          min: 10
+        rpe: 10
         sets:
           - count: 1
             type: fail
