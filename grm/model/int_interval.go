@@ -13,7 +13,11 @@ func (interval IntInterval) MarshalYAML() (interface{}, error) {
   if interval.Min == interval.Max {
     return interval.Min, nil
   }
-  return map[string]int{"min": interval.Min, "max": interval.Max,}, nil
+  value := map[string]int{
+    "max": interval.Max,
+    "min": interval.Min,
+  }
+  return value, nil
 }
 
 func (interval *IntInterval) UnmarshalYAML(node *yaml.Node) error { 
