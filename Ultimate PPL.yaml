@@ -248,7 +248,6 @@ routine:
         rest:
           max: 3
           min: 2
-        rpe: 0
         sets:
           - count: 4
             type: feeder

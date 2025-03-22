@@ -7,7 +7,7 @@ type RoutineExcercise struct {
   Notes         string                `yaml:"notes,omitempty"`
   Reps          Count                 `yaml:"reps"`
   Rest          RestInterval          `yaml:"rest"`
-  RPE           PerceivedExertionRate `yaml:"rpe"`
+  RPE           PerceivedExertionRate `yaml:"rpe,omitempty"`
   Sets          []RoutineExcerciseSet `yaml:"sets"`
   Substitutions []SubstitutionOption  `yaml:"substitutions,omitempty"`
 }
