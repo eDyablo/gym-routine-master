@@ -212,9 +212,7 @@ routine:
               max: 4
               min: 3
             type: warm-up
-          - count:
-              max: 1
-              min: 1
+          - count: 1
             type: working
         substitutions:
           - hackSquat
@@ -233,9 +231,7 @@ routine:
           max: 9
           min: 8
         sets:
-          - count:
-              max: 1
-              min: 1
+          - count: 1
             type: working
           - count:
               max: 4
@@ -248,9 +244,7 @@ routine:
       Push #1
   - exercises:
       - name: latPulldown
-        reps:
-          max: 10
-          min: 10
+        reps: 10
         rest:
           max: 3
           min: 2
@@ -258,17 +252,13 @@ routine:
           max: 0
           min: 0
         sets:
-          - count:
-              max: 4
-              min: 4
+          - count: 4
             type: feeder
         substitutions:
           - machinePulldown
           - pullUp
       - name: latPulldown
-        reps:
-          max: 10
-          min: 10
+        reps: 10
         rest:
           max: 3
           min: 2
@@ -276,9 +266,7 @@ routine:
           max: 10
           min: 10
         sets:
-          - count:
-              max: 1
-              min: 1
+          - count: 1
             type: fail
         substitutions:
           - machinePulldown
@@ -287,9 +275,7 @@ routine:
       Pull #1
   - exercises:
       - name: deadlift
-        reps:
-          max: 5
-          min: 5
+        reps: 5
         rest:
           max: 5
           min: 3
@@ -301,9 +287,7 @@ routine:
               max: 4
               min: 3
             type: warm-up
-          - count:
-              max: 1
-              min: 1
+          - count: 1
             type: working
         substitutions:
           - trapBarDeadlift
