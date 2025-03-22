@@ -2,7 +2,7 @@ services:
   builder:
     build:
       context: .
-      dockerfile: go-builder.Dockerfile
+      dockerfile: builder.Dockerfile
     image: go-builder
   grm:
     build:
