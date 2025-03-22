@@ -216,6 +216,9 @@ routine:
               max: 1
               min: 1
             type: working
+        substitutions:
+          - hackSquat
+          - dumbbellRomanianDeadlift
     name: |
       Legs #1
   - exercises:
@@ -238,6 +241,9 @@ routine:
               max: 4
               min: 3
             type: warm-up
+        substitutions:
+          - dumbbellBenchPress
+          - machineChestPress
     name: |
       Push #1
   - exercises:
@@ -256,6 +262,9 @@ routine:
               max: 4
               min: 4
             type: feeder
+        substitutions:
+          - machinePulldown
+          - pullUp
       - name: latPulldown
         reps:
           max: 10
@@ -271,6 +280,9 @@ routine:
               max: 1
               min: 1
             type: fail
+        substitutions:
+          - machinePulldown
+          - pullUp
     name: |
       Pull #1
   - exercises:
@@ -293,5 +305,8 @@ routine:
               max: 1
               min: 1
             type: working
+        substitutions:
+          - trapBarDeadlift
+          - barbellHipThrust
     name: |
       Full Body #1
