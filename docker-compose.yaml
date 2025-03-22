@@ -1,4 +1,19 @@
 services:
+  builder:
+    build:
+      context: .
+      dockerfile: go-builder.Dockerfile
+    image: go-builder
+  grm:
+    build:
+      args:
+        BUILDER_CONTAINER_IMAGE: go-builder
+      context: .
+      dockerfile: grm.Dockerfile
+    depends_on:
+      - builder
+    volumes:
+      - .:/var/workspace:rw
   terminal:
     build:
       context: .
