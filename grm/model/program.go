@@ -23,9 +23,8 @@ func (program *Program) Save() error {
   }
 }
 
-func LoadProgram(name string) *Program {
-  filename := name + ".yaml"
-  data, err := os.ReadFile(filename)
+func LoadProgram(filePath string) *Program {
+  data, err := os.ReadFile(filePath)
   if err != nil {
     panic(err)
   }

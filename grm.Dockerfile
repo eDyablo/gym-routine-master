@@ -6,6 +6,7 @@ FROM ${BUILDER_CONTAINER_IMAGE} AS build
 FROM scratch
 
 COPY --from=build /var/workspace/grm.exe .
+COPY grm/html /html
 
 ENTRYPOINT [ "/grm.exe" ]
 
